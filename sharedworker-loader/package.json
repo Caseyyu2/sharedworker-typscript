@@ -1,0 +1,19 @@
+{
+  "name": "webworker",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "webpack-dev-server -d"
+  },
+  "devDependencies": {
+    "@types/sharedworker": "0.0.28",
+    "typescript": "^2.6.2",
+    "webpack": "^4.17.1",
+    "webpack-dev-server": "^3.1.10",
+    "randomcolor": "^0.5.3",
+    "sharedworker-loader": "^2.1.1",
+    "ts-loader": "^4.0.0",
+    "webpack-cli": "^3.2.1"
+  }
+
+}
